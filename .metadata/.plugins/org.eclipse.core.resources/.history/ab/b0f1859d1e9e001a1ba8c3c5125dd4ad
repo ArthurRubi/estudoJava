@@ -9,7 +9,6 @@ public class TesteLinkedXArray {
 		ContaCorrente cc2 = new ContaCorrente(22, 222);
 		ContaCorrente cc3 = new ContaCorrente(33, 333);
 		ContaCorrente cc4 = new ContaCorrente(44, 444);
-		ContaCorrente cc5 = new ContaCorrente(55, 555);
 		
 		lista.add(cc);
 		lista.add(cc2);
