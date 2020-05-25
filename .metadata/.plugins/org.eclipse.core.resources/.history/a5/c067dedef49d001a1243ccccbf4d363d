@@ -1,0 +1,36 @@
+package br.com.bytebank.banco.teste.util;
+import java.util.*;
+import br.com.bytebank.banco.modelos.*;
+
+public class teste {
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public static void main(String[] args) {
+		
+		ArrayList<Conta> lista = new ArrayList<Conta>();
+		
+		Cliente arthur = new Cliente();
+		lista.add(arthur);
+		
+		ContaCorrente contaRubi = new ContaCorrente(11, 222);
+		lista.add(contaRubi);
+		
+		ContaCorrente contaRubi2 = new ContaCorrente(33, 444);
+		lista.add(contaRubi2);
+		
+		ContaCorrente contaRubi3 = new ContaCorrente(55, 666);
+		lista.add(contaRubi3);
+		
+		ContaCorrente contaRubi4 = new ContaCorrente(77, 888);
+		lista.add(contaRubi4);
+		
+		System.out.println("Tamanho: " + lista.size());
+	
+		for(Object i: lista) {
+			System.out.println(i);
+		}
+		
+		
+	}
+
+}

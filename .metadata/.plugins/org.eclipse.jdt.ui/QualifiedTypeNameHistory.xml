@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="CriaConta"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Cliente"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Conta"/>
+<fullyQualifiedTypeName name="ContaPoupanca"/>
+<fullyQualifiedTypeName name="Gerente"/>
+<fullyQualifiedTypeName name="SistemaInterno"/>
+<fullyQualifiedTypeName name="Administrador"/>
+<fullyQualifiedTypeName name="Designer"/>
+<fullyQualifiedTypeName name="AutenticacaoUtil"/>
+<fullyQualifiedTypeName name="Tributavel"/>
+<fullyQualifiedTypeName name="CalculadorDeImposto"/>
+<fullyQualifiedTypeName name="SeguroVida"/>
+<fullyQualifiedTypeName name="Funcionario"/>
+<fullyQualifiedTypeName name="java.awt.Button"/>
+<fullyQualifiedTypeName name="GuardadorDeContas"/>
+<fullyQualifiedTypeName name="ContaCorrente"/>
+<fullyQualifiedTypeName name="GuardadorDeReferencias"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="br.com.bytebank.banco.modelos.ContaCorrente"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,24 @@
+package br.com.bytebank.banco.teste.util;
+import java.util.*;
+import br.com.bytebank.banco.modelos.*;
+
+public class TesteArrayListEquals {
+
+	public static void main(String[] args) {
+		
+		ArrayList<Conta> lista = new ArrayList<Conta>();
+		
+		ContaCorrente contaRubi = new ContaCorrente(11, 222);
+		lista.add(contaRubi);
+		
+		ContaCorrente contaRubi2 = new ContaCorrente(33, 444);
+		lista.add(contaRubi2);
+		
+		for(Object i: lista) {
+			System.out.println(i);
+		}
+		
+		System.out.println(lista.contains(contaRubi));
+	}
+
+}

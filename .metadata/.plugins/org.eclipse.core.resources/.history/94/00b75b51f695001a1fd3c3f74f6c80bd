@@ -1,0 +1,20 @@
+///bytebank-herdado-conta/src/Teste.java
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		int idades[] = new int[5];
+		
+		for(int v = 16; v <= 16 + 5; v++) {
+			for(int i = 0; i < idades.length; i++) {
+				idades[v] = v;
+			}
+		}
+		
+		for(int i = 0; i < idades.length; i++) {
+			System.out.println(idades[i]);
+		}
+		
+	}
+
+}

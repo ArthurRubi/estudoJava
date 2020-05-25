@@ -1,0 +1,9 @@
+
+public class TestaPontoFlutuante {
+	public static void main(String[] args) {
+		double salario;
+		salario = 1250.70;
+		System.out.printf("Meu salário é " + salario);
+		System.out.println("Olá novamente, mundo!");
+	}
+}

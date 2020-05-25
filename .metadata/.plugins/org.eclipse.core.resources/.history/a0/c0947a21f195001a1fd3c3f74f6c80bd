@@ -1,0 +1,14 @@
+///bytebank-herdado-conta/src/Teste.java
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		int idade1 = 16;
+		int idade2 = 17;
+		int idade3 = 18;
+		int idade4 = 19;
+		int idade5 = 20;
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package br.com.bytebank.banco.teste.util;
+import br.com.bytebank.banco.modelos.*;
+import java.util.*;
+public class TesteLinkedXArray {
+	public static void main(String[] args) {
+		LinkedList<Conta> lista = new LinkedList<>();
+		ContaCorrente cc = new ContaCorrente(11, 222);
+		lista.add(cc);
+		ContaCorrente cc1 = (ContaCorrente) lista.get(0);
+		System.out.println(cc1.getAgencia());
+	}
+}

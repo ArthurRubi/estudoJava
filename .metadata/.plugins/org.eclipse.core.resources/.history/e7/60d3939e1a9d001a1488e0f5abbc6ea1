@@ -1,0 +1,18 @@
+
+public class TesteArrayReferencias {
+	public static void main(String[] args) {
+	
+//		ContaCorrente[] cc = new ContaCorrente[5];
+//		ContaCorrente cc1 = new ContaCorrente(1111, 222);
+//		cc[0] = cc1;
+//		ContaCorrente contaRubi = cc[0];
+//		System.out.println(contaRubi.getNumero());
+		
+		Conta[] c = new Conta[3];
+		ContaCorrente cc1 = new ContaCorrente(1111, 222);
+		c[0] = cc1;
+		ContaCorrente contaRubi = (ContaCorrente) c[0];
+		System.out.println(contaRubi.getNumero());
+		
+	}
+}

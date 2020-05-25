@@ -1,0 +1,17 @@
+///bytebank-herdado-conta/src/Teste.java
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		int idades[] = new int[5];
+		
+		idades[0] = 16;		int idade1 = idades[0];
+		idades[1] = 17;		int idade2 = idades[1];
+		idades[2] = 18;		int idade3 = idades[2];
+		idades[3] = 19;		int idade4 = idades[3];
+		idades[4] = 20;		int idade5 = idades[4];
+		System.out.println(idades.length);
+		System.out.println(idade1 + " " + idade2 + " " + idade3 + " " + idade4 + " " + idade5);
+	}
+
+}

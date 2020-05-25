@@ -1,0 +1,18 @@
+
+public class TestaCondicional {
+	public static void main(String[] args) {
+		System.out.print("");
+		
+		int quantidadePessoas = 2;
+		boolean acompanhado;
+		
+		if(quantidadePessoas >= 2) {
+			acompanhado = true;
+		} else {
+			acompanhado = false;
+		}
+		
+		System.out.println("O valor de acompanhado é " + acompanhado + ".");
+	}
+}
+

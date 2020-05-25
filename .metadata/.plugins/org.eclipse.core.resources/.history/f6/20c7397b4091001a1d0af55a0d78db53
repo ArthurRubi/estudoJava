@@ -1,0 +1,9 @@
+
+public class Trabalhador extends Funcionario {
+	
+	public double getBonificacao() {
+		System.out.println("Chamada a bonificação do E.V...");
+		return super.getBonificacao() + 100;
+	}
+	
+}

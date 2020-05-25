@@ -1,0 +1,18 @@
+
+public class TesteGuardadorDeContas {
+
+	public static void main(String[] args) {
+		GuardadorDeContas guardador = new GuardadorDeContas();
+		ContaCorrente contaRubi = new ContaCorrente(22, 1111);
+		guardador.adiciona(contaRubi);
+		
+		ContaCorrente contaRubao = new ContaCorrente(11, 2222);
+		guardador.adiciona(contaRubao);
+		
+		int tamanho = guardador.getQuantidadeDeElementos();
+		System.out.println(tamanho);
+		
+		Conta ref = guardador.getReferencia(0);
+		System.out.println(ref);
+	}
+}

@@ -1,0 +1,11 @@
+
+public class TesteReferencias {
+
+	public static void main(String[] args) {
+		Gerente rubi = new Gerente();
+		rubi.setNome("Arthur Rubi");
+		String nome = rubi.getNome();
+		System.out.println(nome);
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class TestaFor {
+	public static void main(String[] args) {
+		int numeroAlvo = 3;
+		for (int multiplicador = 1; multiplicador <= 10; multiplicador++) {
+				numeroAlvo = numeroAlvo * multiplicador;
+				System.out.println(numeroAlvo);
+		}
+	}
+}

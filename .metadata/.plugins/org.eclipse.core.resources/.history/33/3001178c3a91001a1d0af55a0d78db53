@@ -1,0 +1,27 @@
+
+public class TesteReferencias {
+
+	public static void main(String[] args) {
+		Gerente rubi = new Gerente();
+		rubi.setNome("Arthur Rubi");
+		rubi.setSalario(2500.0);
+		ControleBonificacao controleRubi = new ControleBonificacao();
+		controleRubi.registra(rubi);
+		System.out.println("A bonificação do gerente " + rubi.getNome() + " é " + controleRubi.getSoma());
+		
+		Funcionario gabriel = new Funcionario();
+		gabriel.setNome("Gabriel Bonil");
+		gabriel.setSalario(1500.0);
+		ControleBonificacao controleGabriel = new ControleBonificacao();
+		controleGabriel.registra(gabriel);
+		System.out.println("A bonificação do funcionário " + gabriel.getNome() + " é " + controleGabriel.getSoma());
+		
+		EditorVideo gustavo = new EditorVideo();
+		gustavo.setNome("Gustavo Bonil");
+		gustavo.setSalario(1250.0);
+		ControleBonificacao controleGustavo = new ControleBonificacao();
+		controleGustavo.registra(gustavo);
+		System.out.println("A bonificação do funcionário " + gustavo.getNome() + " é " + controleGustavo.getSoma());
+	}
+
+}
